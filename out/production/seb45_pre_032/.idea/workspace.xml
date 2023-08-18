@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17c0f189-ca88-490b-8531-2df9628b2f34" name="변경" comment="commit, vote complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vote/Entity/VoteMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/com/comment/CommentMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/com/comment/CommentMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/com/vote/VoteMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/com/vote/VoteMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comment/AnswerCommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comment/Controller/AnswerCommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comment/BusinessLogicException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comment/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comment/Entity/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comment/CommentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comment/DTO/CommentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comment/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comment/Mapper/CommentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comment/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comment/Repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comment/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comment/Service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comment/ExceptionCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/comment/QuestionCommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/comment/Controller/QuestionCommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/member/Entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/member/Entity/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/member/Exception/BusinessLogicException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Exception/BusinessLogicException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/member/Exception/ExceptionCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Exception/ExceptionCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/member/Service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/member/Service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vote/AnswerVoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vote/Controller/AnswerVoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vote/QuestionVoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vote/Controller/QuestionVoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vote/Vote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vote/Entity/Vote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vote/VoteDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vote/DTO/VoteDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vote/VoteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vote/Mapper/VoteMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vote/VoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vote/Repository/VoteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vote/VoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vote/Service/VoteService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="server" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2TokZ8GvLxzGqVmVgSpTpePdDT6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/strka/Desktop/preProject/seb45_pre_032/server",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "f388e2a0991e057a0316947c380806f0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.ServerApplication">
+    <configuration name="CommentRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.comment.CommentRepositoryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="CommentRepositoryTest.saveCommentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.comment.CommentRepositoryTest.saveCommentTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="CommentTest.postCommentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.comment.CommentTest.postCommentTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ServerApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.rainbow.ServerApplicationTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rainbow.ServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rainbow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServerApplication" />
+        <item itemvalue="Gradle.CommentTest.postCommentTest" />
+        <item itemvalue="Gradle.CommentRepositoryTest" />
+        <item itemvalue="Gradle.CommentRepositoryTest.saveCommentTest" />
+        <item itemvalue="Gradle.ServerApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="17c0f189-ca88-490b-8531-2df9628b2f34" name="변경" comment="" />
+      <created>1691716874161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691716874161</updated>
+      <workItem from="1691716875128" duration="16467000" />
+      <workItem from="1691971846766" duration="13279000" />
+      <workItem from="1692059792916" duration="818000" />
+      <workItem from="1692144098470" duration="2744000" />
+      <workItem from="1692146858693" duration="7198000" />
+      <workItem from="1692231325382" duration="13047000" />
+    </task>
+    <task id="LOCAL-00001" summary="test windeer9 Comment, Vote">
+      <created>1691740971985</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691740971985</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit, vote complete">
+      <created>1692260571579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692260571579</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit, vote complete">
+      <created>1692260806390</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692260806390</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit, vote complete">
+      <created>1692261023744</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692261023744</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test windeer9 Comment, Vote" />
+    <MESSAGE value="commit, vote complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit, vote complete" />
+  </component>
+</project>
