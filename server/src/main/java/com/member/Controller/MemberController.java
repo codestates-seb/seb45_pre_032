@@ -2,6 +2,7 @@ package com.member.Controller;
 
 import com.member.DTO.MemberDto;
 import com.member.Entity.Member;
+import com.member.Response.SingleResponseDto;
 import com.member.Service.MemberService;
 import com.member.Mapper.MemberMapper;
 import org.springframework.http.HttpStatus;
@@ -10,8 +11,10 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
+import java.util.List;
+
 @RestController
-@RequestMapping("v1/members")
+@RequestMapping("members")
 public class MemberController {
     //    private final static String MEMBER_DEFAULT_URL ="";
     private MemberService memberService;
@@ -30,7 +33,7 @@ public class MemberController {
 
         Member createMember = memberService.createMember(mapper.memberPostDtotoMember(postDto));
 
-        return new ResponseEntity<>(mapper.memberResponseDtotoMember(createMember), HttpStatus.CREATED);
+        return new ResponseEntity<> (new SingleResponseDto<>(mapper.memberToMemberResponseDto(createMember)), HttpStatus.CREATED);
     }
 
     @PatchMapping("/{member_id}")
@@ -42,21 +45,24 @@ public class MemberController {
 
         Member updateMember = memberService.updateMember(mapper.memberPatchDtotoMember(patchDto));
 
-        return new ResponseEntity<>(mapper.memberResponseDtotoMember(updateMember), HttpStatus.OK);
+        return new ResponseEntity<> (new SingleResponseDto<>(mapper.memberToMemberResponseDto(updateMember)), HttpStatus.OK);
     }
 
     @GetMapping("/{member_id}")
     public ResponseEntity getMember(@PathVariable("member_id") long memberId) {
 
-        Member member = memberService.findMember(memberId); // 데이터
+        Member findMember = memberService.findMember(memberId);
 
-        return new ResponseEntity(HttpStatus.OK);
+        return new ResponseEntity<> (new SingleResponseDto<>(mapper.memberToMemberResponseDto(findMember)), HttpStatus.OK);
     }
 
     @GetMapping
     public ResponseEntity getMembers() {
+        List<Member> members = memberService.findMembers();
+        List<MemberDto.MemberResponseDto> response = mapper.membersToMemberResponseDto(members);
 
-        return new ResponseEntity(HttpStatus.OK);
+
+        return new ResponseEntity(response, HttpStatus.OK);
     }
 
     @DeleteMapping

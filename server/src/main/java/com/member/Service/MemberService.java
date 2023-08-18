@@ -2,11 +2,15 @@ package com.member.Service;
 
 
 import com.member.Entity.Member;
+import com.member.Repository.MemberRepository;
 import com.Exception.BusinessLogicException;
 import com.Exception.ExceptionCode;
-import com.member.Repository.MemberRepository;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.Optional;
 
 @Service
@@ -19,12 +23,27 @@ public class MemberService {
 
     public Member createMember(Member member){
         verifyExistEmail(member.getEmail());
+        member.setSignInAt(LocalDateTime.now());
         return memberRepository.save(member);
     }
 
     public Member updateMember(Member member){
-        Member updateMember = member;
-        return updateMember;
+
+        Member findMember = findVerifiedMember(member.getMemberId());
+
+        Optional.ofNullable(member.getDisplayName())
+                .ifPresent(displayName -> findMember.setDisplayName(displayName));
+        Optional.ofNullable(member.getPassword())
+                .ifPresent(password -> findMember.setPassword(password));
+//        Optional.ofNullable(member.getEmail())
+//                .ifPresent(email -> findMember.setEmail(email));
+//        이메일까지? 아니면 닉네임과 비밀번호만?
+
+        findMember.setLastLoginAt(LocalDateTime.now());
+
+        return memberRepository.save(findMember);
+
+
     }
 
 
@@ -32,6 +51,10 @@ public class MemberService {
         return findVerifiedMember(memberId);
     }
 
+    public Page<Member> findMember (int page, int size){
+        return memberRepository.findAll(PageRequest.of(page, size,
+        Sort.by("memberId").descending()));
+    }
 
     public void deleteMember(long memberId) {
         Member findMember = findVerifiedMember(memberId);

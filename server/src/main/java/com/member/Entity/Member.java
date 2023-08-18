@@ -20,11 +20,11 @@ public class Member {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long memberId;
-    @Column
+    @Column(nullable = false)
     private String email;
-    @Column
+    @Column(nullable = false)
     private String password;
-    @Column
+    @Column(nullable = false)
     private String displayName;
 
     @Enumerated(value = EnumType.STRING)
@@ -32,10 +32,10 @@ public class Member {
     private MemberStatus memberStatus = MemberStatus.MEMBER_ACTIVE;
 
     @Column(nullable = false)
-    private LocalDateTime sign_in_at = LocalDateTime.now();// 서비스에 post 진행시 호출
+    private LocalDateTime signInAt = LocalDateTime.now();// 서비스에 post 진행시 호출
 
     @Column(nullable = false)
-    private LocalDateTime last_login_at = LocalDateTime.now();// 서비스에 patch 진행시 호출
+    private LocalDateTime lastLoginAt = LocalDateTime.now();// 서비스에 patch 진행시 호출
 
     //Comment와 1:다 매핑
     @OneToMany(mappedBy = "member_id")
@@ -43,6 +43,12 @@ public class Member {
     //VoteMember와 1:다 매핑
     @OneToMany(mappedBy = "member_id")
     private List<VoteMember> voteMembers;
+
+    public Member (String email, String password, String displayName){
+        this.email = email;
+        this.password = password;
+        this.displayName = displayName;
+    }
 
 
     public enum MemberStatus{
