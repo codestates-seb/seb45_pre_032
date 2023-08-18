@@ -16,7 +16,7 @@ public class MemberDto {
     @Getter
     public static class Patch {
         public long memberId;
-        public String email;
+        public String password;
         public String display_name;
     }
 
