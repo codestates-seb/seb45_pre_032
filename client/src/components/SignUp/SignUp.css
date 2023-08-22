@@ -1,0 +1,96 @@
+.social_sign_up_form_container {
+    margin: 20px 0 20px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_sign_up_form_google {
+    padding: 10px;
+    width: 100%;
+    
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    
+    font-size: 16px;
+    color: rgb(116, 116, 116);
+    background-color: white;
+}
+
+.social_sign_up_form_google:hover {
+    cursor: pointer;
+    background-color: #d7d7d7;
+}
+
+.social_sign_up_form_google_icon {
+    font-size: 20px;
+    color: rgb(0, 136, 255);
+    padding-right: 4px;
+}
+
+.sign_up_form_input_total {
+    padding: 24px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.sign_up_form_input_title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 2px 0 2px 0;
+}
+
+.sign_up_form_input_box {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    font-size: 16px;
+    color: gray;
+}
+
+.sign_up_form_password_under_text {
+    color: gray;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.sign_up_form_btn {
+    border-radius: 8px;
+    width: 100%;
+    padding: 14px;
+    font-size: 15px;
+
+    color: white;
+    background-color: #0A95FF;
+    border: 1px solid #81C5FF;
+}
+
+.sign_up_form_btn:hover {
+    cursor: pointer;
+    background-color: #0974c6;
+}
+
+.sign_up_form_sign_up_understand {
+    color: gray;
+    margin: 32px 0 0 0;
+}
+
+.sign_up_form_last_text {
+    text-align: center;
+}
+
+.sign_up_form_text_log_in {
+    margin-left: 4px;
+    color: #0970be;
+}
+
+.sign_up_form_text_sign_up:hover {
+    cursor: pointer;
+    color: #0a92f9;
+}

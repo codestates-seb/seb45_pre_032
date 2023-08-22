@@ -1,0 +1,17 @@
+.askPage_main_section_division {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.askPage_main_container {
+    margin-top: 70px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.askPage_title_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

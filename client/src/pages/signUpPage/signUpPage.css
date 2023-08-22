@@ -1,0 +1,75 @@
+.signUpPage_main_total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: #ececec;
+}
+
+.signUpPage_sign_up_sections {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpPage_text_containers {
+    width: 40%;
+    margin-right: 48px;
+}
+
+.signUpPage_sign_up_form {
+    width: 40%;
+}
+
+.signUpPage_text_h1 {
+    font-weight: normal;
+    font-size: 2rem;
+    margin: 0 0 32px 0;
+}
+
+.signUpPage_text_container {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.signUpPage_text_circleQuestion_icon {
+    font-size: 24px;
+    color: #0A95FF;
+}
+
+.signUpPage_text_sort_icon {
+    font-size: 38px;
+    color: #0A95FF;
+}
+
+.signUpPage_text_bookmark_icon {
+    font-size: 30px;
+    color: #0A95FF;
+}
+
+.signUpPage_text_trophy_icon {
+    font-size: 20px;
+    color: #0A95FF;
+}
+
+.signUpPage_texts {
+    font-size: 20px;
+}
+
+.signUpPage_gray_text {
+    color: gray;
+}
+
+.signUpPage_blue_text {
+    color: #0974c6;
+}
+
+.signUpPage_blue_text:hover {
+    cursor: pointer;
+    color: #0A95FF;
+}

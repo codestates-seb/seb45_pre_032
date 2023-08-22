@@ -1,0 +1,68 @@
+.searchDropdown_total_container {
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 100%;
+    background-color: white;
+}
+
+.searchDropdown_text_total_container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    padding: 12px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.searchDropdown_text_containers {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-basis: 50%;
+}
+
+.searchDropdown_text_container {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+
+}
+
+.searchDropdown_left_text {
+    font-weight: bold;
+}
+
+.searchDropdown_right_text{
+    color: gray;
+}
+
+.searchDropdown_link_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px;
+}
+
+.searchDropdown_link {
+    padding: 8px;
+    border-radius: 10px;
+    
+    color: #65879f;
+    background-color: #E1ECF4;
+    border: 1px solid #BBD2E1;
+}
+
+.searchDropdown_link:hover {
+    cursor: pointer;
+    background-color: #c2d3e0;
+}
+
+.searchDropdown_help_link {
+    color: rgb(41, 115, 179);
+}
+
+.searchDropdown_help_link:hover {
+    color: rgb(49, 141, 223);
+}

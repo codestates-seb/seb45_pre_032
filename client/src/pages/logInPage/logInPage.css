@@ -1,0 +1,14 @@
+.logInPage_main_total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: #ececec;
+}
+
+.logInPage_Log_in_form {
+    width: 30%;
+}

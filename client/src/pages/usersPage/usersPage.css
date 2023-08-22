@@ -1,0 +1,17 @@
+.usersPage_main_section_division {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.usersPage_main_container {
+    margin-top: 70px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.usersPage_title_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

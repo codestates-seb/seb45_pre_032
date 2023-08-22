@@ -1,0 +1,53 @@
+a {
+    color: gray;
+}
+
+a:hover {
+    color: black;
+}
+
+.nav_total_container {
+    width: 180px;
+    height: 100%vh;
+    margin-top: 70px;
+    padding-top: 24px;
+
+    border-right: 1px solid #ccc;
+    background-color: white;
+}
+
+.nav_ul {
+    padding-left: 0;
+}
+
+.nav_home {
+    padding: 4px 4px 4px 8px;
+}
+
+.nav_text_public {
+    margin: 16px auto 4px 8px;
+    color: gray;
+    font-size: 14px;
+}
+
+.nav_questions {
+    padding: 8px 6px 8px 8px;
+}
+
+.nav_questions_icon {
+    margin-right: 4px;
+}
+
+.nav_li {
+    padding: 8px 6px 8px 30px;
+}
+
+.active {
+    border-right: 3px solid tomato;
+    background-color: rgb(234, 234, 234);
+    font-weight: bold;
+}
+
+a > .active {
+    color: black;
+}
