@@ -1,0 +1,25 @@
+.creators_total_container {
+    margin-top: 70px;
+    padding-top: 10px;
+}
+
+.creators_section_container {
+    margin: 0 100px 30px 100px;
+}
+
+.creators_list_container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.creators_FE_container {
+    margin-bottom: 40px;
+}
+
+.creators_field {
+    margin-bottom: 0px;
+    font-size: 24px;
+}
